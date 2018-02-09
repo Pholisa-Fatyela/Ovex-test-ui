@@ -1,0 +1,26 @@
+{:uriI"ãfile://app/assets/javascripts/raven-js/bower.json?type=application/json&id=498fc06bbeddfd74c723718d63f079ef31c200eb5fc40465d60442dc43cef685:ET:load_pathI"app/assets/javascripts;T:filenameI"/app/assets/javascripts/raven-js/bower.json;T:	nameI"raven-js/bower;T:logical_pathI"raven-js/bower.json;T:content_typeI"application/json;T:sourceI"?{
+  "name": "raven-js",
+  "version": "3.22.1",
+  "dependencies": {},
+  "main": "dist/raven.js",
+  "ignore": [
+    "**/.*",
+    "AUTHORS",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "Gruntfile.js",
+    "Makefile",
+    "README.md",
+    "docs",
+    "package.json",
+    "example",
+    "test",
+    "dist/sri.json"
+  ]
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/javascripts/raven-js/bower.json;TTF:charsetI"
+utf-8;F:digest"%+èΩ∞ØT∫ï6ŸN	ÄnÙc-ô€æÂQ(ÂáA∆ƒ=:lengthi?:dependencies_digest"%ãeNã∂Ë©ö◊
+P=÷ÖÏDïıí©[œeùå:idI"E498fc06bbeddfd74c723718d63f079ef31c200eb5fc40465d60442dc43cef685;F:
+mtimel+ÍZgZ

@@ -1,0 +1,7 @@
+I"t(function() {
+  $(function() {
+    return $('input[name*=created_at]').datetimepicker();
+  });
+
+}).call(this);
+:ET

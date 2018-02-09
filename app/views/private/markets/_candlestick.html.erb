@@ -1,0 +1,60 @@
+<script type="text/javascript">
+    function dragStart(event) {
+       // event.dataTransfer.effectAllowed='move';
+       // event.dataTransfer.setData("Text", event.target.getAttribute('id'));
+       // event.dataTransfer.setDragImage(event.target,0,0);
+       //
+       // return true;
+       console.log("dragStart: dropEffect = " + event.dataTransfer.dropEffect + " ; effectAllowed = " + event.dataTransfer.effectAllowed);
+
+  // Add this element's id to the drag payload so the drop handler will
+  // know which element to add to its tree
+  event.dataTransfer.setData("text", event.target.id);
+  event.dataTransfer.effectAllowed = "move";
+    }
+    function dragDrop(event) {
+       // var src = event.dataTransfer.getData("Text");
+       // event.target.appendChild(document.getElementById(src));
+       // event.stopPropagation();
+       // return false;
+
+       console.log("drop: dropEffect = " + event.dataTransfer.dropEffect + " ; effectAllowed = " + event.dataTransfer.effectAllowed);
+  event.preventDefault();
+
+  // Get the id of the target and add the moved element to the target's DOM
+  var data = event.dataTransfer.getData("text");
+  //console.log(candlestick);
+
+  candlestick_chart.appendChild(document.getElementById(data));
+    }
+
+    // function dragEnter(event) {
+    //    event.preventDefault();
+    //    return true;
+    // }
+
+    function dragOver(event) {
+      console.log("dragOver: dropEffect = " + event.dataTransfer.dropEffect + " ; effectAllowed = " + event.dataTransfer.effectAllowed);
+  event.preventDefault();
+  // Set the dropEffect to move
+  event.dataTransfer.dropEffect = "move"
+       //return false;
+    }
+
+
+</script>
+
+<div id="candlestick"  >
+  <div id="candlestick_chart" style="height: 100%;" ondrop="dragDrop(event)"
+  ondragover="dragOver(event)"></div>
+  <div class="mask">
+    <table>
+      <tr>
+        <td class="text-center">
+          <i class="fa fa-refresh fa-spin fa-1x"></i>
+          <span> Loading ...</span>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

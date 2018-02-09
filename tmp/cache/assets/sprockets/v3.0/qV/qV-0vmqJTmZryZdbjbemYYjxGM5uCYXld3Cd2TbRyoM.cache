@@ -1,0 +1,24 @@
+{:uriI"éfile://app/assets/javascripts/raven-js/dist/sri.json?type=application/json&id=2ba448c98fdb9b782aa55bf2083fa4dd197ee92c5c690335324926bb750ff652:ET:load_pathI"app/assets/javascripts;T:filenameI"2app/assets/javascripts/raven-js/dist/sri.json;T:	nameI"raven-js/dist/sri;T:logical_pathI"raven-js/dist/sri.json;T:content_typeI"application/json;T:sourceI"p{
+  "@dist/raven.js": {
+    "hashes": {
+      "sha256": "N0FPMOqAtFf3EJCtHA4/ji7Tm2nJD9vBM2yLC3ysnuw=",
+      "sha512": "vBRdyqL23UUgU5HPqMEjMu2O21gqliHra/vnz7LExOrqinmcvaDgnI5vU1DdIdJQLwpfXj9KC5+63WJ54yE15A=="
+    },
+    "type": null,
+    "integrity": "sha256-N0FPMOqAtFf3EJCtHA4/ji7Tm2nJD9vBM2yLC3ysnuw= sha512-vBRdyqL23UUgU5HPqMEjMu2O21gqliHra/vnz7LExOrqinmcvaDgnI5vU1DdIdJQLwpfXj9KC5+63WJ54yE15A==",
+    "path": "dist/raven.js"
+  },
+  "@dist/raven.min.js": {
+    "hashes": {
+      "sha256": "5lhTmQCA+Pa0BpbrcAOqHTaWa5QBjPUx3OcMHM2QLxY=",
+      "sha512": "ffPsTaw4h/5hsgfTzIfFW4rdWJXNu8y1Jg51wF11nYAoIpD7pBqSDkr12YqmLJTcEOFzehAN0DaBPFGPymgt4Q=="
+    },
+    "type": null,
+    "integrity": "sha256-5lhTmQCA+Pa0BpbrcAOqHTaWa5QBjPUx3OcMHM2QLxY= sha512-ffPsTaw4h/5hsgfTzIfFW4rdWJXNu8y1Jg51wF11nYAoIpD7pBqSDkr12YqmLJTcEOFzehAN0DaBPFGPymgt4Q==",
+    "path": "dist/raven.min.js"
+  }
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"@file-digest://app/assets/javascripts/raven-js/dist/sri.json;TTF:charsetI"
+utf-8;F:digest"%3íMî{Íã—Üƒ&Ü®ÛÎ¢˛≈†æÛ¥àË⁄3&:lengthip:dependencies_digest"%tz√”ën+/ß˙EŸ5∏"©ÌÒÆ6¡{XÜzÙyÅ˝˛:idI"E2ba448c98fdb9b782aa55bf2083fa4dd197ee92c5c690335324926bb750ff652;F:
+mtimel+ÍZgZ
